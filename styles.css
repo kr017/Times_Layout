@@ -2,6 +2,8 @@
 
 :root {
   --dark-red: #e90606;
+  --off-color: #f0f1f2;
+  --primary-text: rgb(26, 19, 19);
 }
 
 body {
@@ -23,12 +25,14 @@ body {
 }
 .brand-pill {
   display: inline-flex;
+  align-items: center;
 }
 .nav-brand {
   margin-left: 4px;
 }
 .first {
   color: var(--dark-red);
+  font-size: 24px;
 }
 .nav-pills {
   text-align: right;
@@ -38,12 +42,12 @@ body {
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
+  color: var(--primary-text);
 }
 .list-item-inline {
   display: inline;
   /* padding: 0rem 0.5rem; */
   font-size: 14px;
-  color: ;
 }
 .list-non-bullet {
   list-style: none;
@@ -51,4 +55,121 @@ body {
 }
 .link-active {
   font-weight: 600;
+}
+
+.container {
+  margin: 20px auto 0px auto;
+  width: 80%;
+}
+
+.latest-stories {
+  background-color: var(--off-color);
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+h2 {
+  /* width: 100%; */
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 2% 20px;
+  text-transform: uppercase;
+}
+h2:before {
+  /* background-color: green; */
+  padding: 0 20px;
+  content: " ";
+}
+h2:after {
+  /* background-color: red; */
+  padding: 0 20px;
+  content: " ";
+}
+
+h2 span {
+  background: var(--off-color);
+  padding: 0 10px;
+  color: var(--dark-red);
+}
+.news_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: -10px 0 0 -10px;
+  position: relative;
+  color: #000;
+}
+
+.news_index {
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: underline var(--dark-red);
+}
+.news_tile {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: var(--off-color);
+  display: inline-block;
+  padding: 0px 0px 20px;
+  width: 200px;
+  margin: 10px 0 0 1%;
+}
+
+.news_title:hover {
+  color: var(--dark-red);
+  cursor: pointer;
+}
+
+.main {
+  text-align: center;
+}
+
+.main_title {
+  font-style: italic;
+  font-size: 24px;
+}
+
+.main_content {
+  width: 100%;
+  display: flex;
+}
+
+.main_first {
+  width: 80%;
+}
+.main_second {
+  width: 20%;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.banner_img {
+  width: 100%;
+  height: 500px;
+}
+
+.magazine_container {
+}
+
+.magazine_content {
+  background-color: var(--off-color);
+  height: 700px;
+  padding-top: 12px;
+}
+.magazine_content span {
+  background: var(--off-color);
+  padding: 0 10px;
+  color: var(--dark-red);
+}
+
+.seperator {
+  border: 1px solid;
+  height: 200px;
+  margin: -10px 20px 0px;
+}
+.plane {
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
 }
