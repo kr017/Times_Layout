@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --dark-red: #e90606;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--body-dark);
+
+  width: 100%;
+  margin: auto;
+  /* max-width: 600px; */
+}
+
+.navigation {
+  padding: 0px 2rem;
+  border-bottom: 1px solid #c8c8c8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+.brand-pill {
+  display: inline-flex;
+}
+.nav-brand {
+  margin-left: 4px;
+}
+.first {
+  color: var(--dark-red);
+}
+.nav-pills {
+  text-align: right;
+}
+
+/* links */
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.list-item-inline {
+  display: inline;
+  /* padding: 0rem 0.5rem; */
+  font-size: 14px;
+  color: ;
+}
+.list-non-bullet {
+  list-style: none;
+  padding: 0px;
+}
+.link-active {
+  font-weight: 600;
+}
