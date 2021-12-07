@@ -68,6 +68,10 @@ body {
   text-align: center;
   padding: 20px 0px;
 }
+.latest_title {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
 h2 {
   /* width: 100%; */
   text-align: center;
@@ -155,7 +159,7 @@ h2 span {
 
 .magazine_content {
   background-color: var(--off-color);
-  height: 700px;
+  height: 400px;
   padding-top: 12px;
 }
 .magazine_content span {
